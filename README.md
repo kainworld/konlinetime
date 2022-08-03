@@ -24,6 +24,7 @@ The time argument accepts values as follows:
 - just any whole number: interpreted as seconds
 - multiple combination of amount with unit: the sum of given amount
 - Examples:
+
 | Time Example | Interpretation |
 | ------------ | -------------- |
 | 77 | 77 seconds or 1 minute and 17 seconds |
