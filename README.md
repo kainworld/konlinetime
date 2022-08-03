@@ -34,7 +34,7 @@ The time argument accepts values as follows:
 | 1h -5min | 1 hour minus 5 minutes or 55 minutes |
 | -6 d | subtract 6 days (only using modify) |
 
-Permissions:
+## Permissions:
 | Permission | Description |
 | ---------- | ----------- |
 | onlinetime.see | see your recorded online time |
