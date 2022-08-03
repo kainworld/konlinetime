@@ -1,24 +1,23 @@
-# konlinetime
-A simple Minecraft plugin which counts the online time of players.
-
-OnlineTime
+# OnlineTime
 This plugin measures the total time players are connected to your server network.
 
 This plugin is based on Mr_Minecraft15's plugin OnlineTime, but I've more or less completely rewritten everything up to the point where it is barely noticeable.
 
-Features:
+## Features:
 Every message (including prefix) is customizable!
 Store data in YAML or MySQL
 extreme multiprogramming, zero blocking operations on I/O-threads cause zero lag
 PlaceholderAPI support
-Commands:
-Command	Description
-/onlinetime [playername or uuid]	show online time of player
-/ot [playername or uuid]	alias for /onlinetime
-/onlinetimeadmin set [playername or uuid] [time]	set a players online time to the given amount
-/onlinetimeadmin mod [playername or uuid] [time]	modify a players online time by the given amount
-/onlinetimeadmin reset [playername or uuid]	reset a players online time to zero
-/ota (set|mod|reset) ...	alias for /onlinetimeadmin
+
+## Commands:
+| Command |	Description |
+| ------- | ----------- |
+| /onlinetime [playername or uuid] | show online time of player |
+| /ot [playername or uuid] | alias for /onlinetime |
+| /onlinetimeadmin set [playername or uuid] [time] | set a players online time to the given amount |
+| /onlinetimeadmin mod [playername or uuid] [time] | modify a players online time by the given amount |
+| /onlinetimeadmin reset [playername or uuid] | reset a players online time to zero |
+| /ota (set|mod|reset) ... | alias for /onlinetimeadmin |
 The time argument accepts values as follows:
 
 just any whole number: interpreted as seconds
