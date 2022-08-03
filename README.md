@@ -18,11 +18,12 @@ PlaceholderAPI support
 | /onlinetimeadmin mod [playername or uuid] [time] | modify a players online time by the given amount |
 | /onlinetimeadmin reset [playername or uuid] | reset a players online time to zero |
 | /ota (set|mod|reset) ... | alias for /onlinetimeadmin |
+
 The time argument accepts values as follows:
 
-just any whole number: interpreted as seconds
-multiple combination of amount with unit: the sum of given amount
-Examples:
+- just any whole number: interpreted as seconds
+- multiple combination of amount with unit: the sum of given amount
+- Examples:
 Time Example	Interpretation
 77	77 seconds or 1 minute and 17 seconds
 4h 3min	4 hours and 3 minutes
